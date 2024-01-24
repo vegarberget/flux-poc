@@ -5,3 +5,16 @@ resources:
   - ../../base/podtato-head
 commonLabels:
   env: prod
+images:
+  - name: ghcr.io/podtato-head/entry
+    newTag: 0.2.7
+  - name: ghcr.io/podtato-head/hat
+    newTag: 0.2.7
+  - name: ghcr.io/podtato-head/left-arm
+    newTag: 0.2.7
+  - name: ghcr.io/podtato-head/right-arm
+    newTag: 0.2.7
+  - name: ghcr.io/podtato-head/left-leg
+    newTag: 0.2.7
+  - name: ghcr.io/podtato-head/right-leg
+    newTag: 0.2.7
